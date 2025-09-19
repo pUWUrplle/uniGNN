@@ -1,0 +1,60 @@
+===== GNN Performance Report =====
+
+Evaluation on 200000 samples
+Total inference time: 1709.0878 seconds
+Average per sample: 8.5454 ms
+Max per sample: 266.9016 ms
+Min per sample: 4.2057 ms
+
+===== Continuous Output Metrics =====
+
+Area Ratio:
+  MAE: 0.079743
+  Max Error: 0.929567
+  Median Error: 0.054972
+  Std Deviation: 0.083315
+  R² Score: 0.612245
+
+Perim Ratio:
+  MAE: 0.067830
+  Max Error: 0.877361
+  Median Error: 0.051186
+  Std Deviation: 0.064958
+  R² Score: 0.541831
+
+Horiz Pos:
+  MAE: 0.025345
+  Max Error: 0.165145
+  Median Error: 0.021153
+  Std Deviation: 0.019549
+  R² Score: 0.750858
+
+Vert Pos:
+  MAE: 0.025058
+  Max Error: 0.169019
+  Median Error: 0.020877
+  Std Deviation: 0.019290
+  R² Score: 0.759819
+
+===== Boolean Output Metrics =====
+
+Intersection:
+  Accuracy: 0.9810
+  Precision: 0.9810
+  Recall: 1.0000
+  F1 Score: 0.9904
+  Confusion Matrix: [[0, 3793], [0, 196207]]
+
+Contains1In2:
+  Accuracy: 0.9859
+  Precision: 0.0000
+  Recall: 0.0000
+  F1 Score: 0.0000
+  Confusion Matrix: [[197178, 0], [2822, 0]]
+
+Contains2In1:
+  Accuracy: 0.9858
+  Precision: 0.0000
+  Recall: 0.0000
+  F1 Score: 0.0000
+  Confusion Matrix: [[197159, 0], [2841, 0]]
